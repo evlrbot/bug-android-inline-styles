@@ -1,0 +1,15 @@
+<head>
+  <title>bug-android-inline-styles</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <style>
+    body { background-color:red; }
+    h1 { font-family:Georgia; color:white; }
+  </style>
+  <h1>Hello World!</h1>
+</template>
